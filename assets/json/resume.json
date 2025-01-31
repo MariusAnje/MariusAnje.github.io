@@ -102,8 +102,8 @@
   ],
   "services": [
     {
-      "name": "Conference Program Committee",
-      "keywords": [
+      "position": "Conference Program Committee",
+      "highlights": [
         "Design, Automation and Test in Europe Conference and Exhibition (DATE), 2024",
         "IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2024",
         "IEEE Computer Society Annual Symposium on VLSI (ISVLSI), 2024 - 2025",
@@ -111,8 +111,8 @@
       ]
     },
     {
-      "name": "Journal Reviewer",
-      "keywords": [
+      "position": "Journal Reviewer",
+      "highlights": [
         "Nature Reviews Electrical Engineering",
         "IEEE Transactions on Computers (TC)",
         "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
@@ -128,14 +128,14 @@
       ]
     },
     {
-      "name": "Session Chair",
-      "keywords": [
+      "position": "Session Chair",
+      "highlights": [
         "30th Asia and South Pacific Design Automation Conference (ASP-DAC) 2025"
       ]
     },
     {
-      "name": "Invited Talks",
-      "keywords": [
+      "position": "Invited Talks",
+      "highlights": [
         "Kyoto University, Kyoto, Japan (host: Prof. Hashimoto), 2024",
         "AI Chip Center for Emerging Smart Systems, HongKong, China (host: Dr. Luhong Liang), 2023",
         "Zhejiang University, Hangzhou, China (host: Prof. Cheng Zhuo), 2023",
