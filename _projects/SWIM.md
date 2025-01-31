@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SWIM
-description: SWIM: Selective Write-Verify for Computing-in-Memory Neural Accelerators
+description: SWIM - Selective Write-Verify for Computing-in-Memory Neural Accelerators
 img: assets/img/publication_preview/swim.png
 importance: 1
 category: work
