@@ -2,7 +2,7 @@
 layout: page
 title: Worst-Case Performances
 description: Compute-in-Memory Based Neural Network Accelerators for Safety-Critical Systems - Worst-Case Scenarios and Protections
-img: assets/img/worst.png
+img: assets/img/publication_preview/worst.png
 importance: 1
 category: work
 related_publications: true

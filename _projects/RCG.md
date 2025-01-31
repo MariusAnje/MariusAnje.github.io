@@ -2,7 +2,7 @@
 layout: page
 title: Realistic Worst-Case Performances
 description: Improving realistic worst-case performance of NVCiM DNN accelerators through training with right-censored gaussian noise
-img: assets/img/RCG.jpg
+img: assets/img/publication_preview/RCG.jpg
 importance: 1
 category: work
 related_publications: true

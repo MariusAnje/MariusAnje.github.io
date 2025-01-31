@@ -2,7 +2,7 @@
 layout: page
 title: Hardware Fairness
 description: Hardware design and the fairness of a neural network
-img: assets/img/CIMFair.png
+img: assets/img/publication_preview/CIMFair.png
 importance: 1
 category: work
 related_publications: true
