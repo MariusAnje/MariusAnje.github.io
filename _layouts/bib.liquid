@@ -40,6 +40,17 @@
             alt=entry.preview
           %}
         {% endif %}
+      {% else %}
+        {% assign entry_path = 'photo.jpg' | prepend: '/assets/img/publication_preview/' %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=entry_path
+          sizes = "200px"
+          class="preview z-depth-1 rounded"
+          zoomable=true
+          alt=entry.preview
+        %}
       {% endif %}
     </div>
   {% endif %}
