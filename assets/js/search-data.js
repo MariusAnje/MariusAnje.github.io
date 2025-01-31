@@ -101,51 +101,26 @@ ninja.data = [{
           section: "News",},{id: "news-zheyu-yan-nominated-for-best-paper-award-in-iccad-2024",
           title: 'Zheyu Yan Nominated for Best Paper Award in ICCAD 2024.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-worst-case-performances",
+          title: 'Worst-Case Performances',
+          description: "Compute-in-Memory Based Neural Network Accelerators for Safety-Critical Systems - Worst-Case Scenarios and Protections",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/CIM_Fair-copy-3/";
+            },},{id: "projects-hardware-fairness",
+          title: 'Hardware Fairness',
+          description: "Hardware design and the fairness of a neural network",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/CIM_Fair/";
+            },},{id: "projects-realistic-worst-case-performances",
+          title: 'Realistic Worst-Case Performances',
+          description: "Improving realistic worst-case performance of NVCiM DNN accelerators through training with right-censored gaussian noise",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/RCG/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/SWIM/";
             },},{
         id: 'social-email',
         title: 'email',
