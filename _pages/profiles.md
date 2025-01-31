@@ -10,19 +10,13 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: z-yan.jpg
+    content: about.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>ZJU-Hangzhou Global Scientific and Technological Innovation Center</p>
+      <p>Water Expo Campus</p>
+      <p>Building A03, Room 510</p>
+      <p>2118 Pinglan Road</p>
+      <p>Hangzhou, Zhejiang, China</p>
 ---
