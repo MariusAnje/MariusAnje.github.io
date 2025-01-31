@@ -129,6 +129,13 @@ ninja.data = [{
           window.open("mailto:%7A%79%61%6E%32_%41%54_%7A%6A%75.%65%64%75.%63%6E", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/zyyan", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
