@@ -111,9 +111,9 @@ ninja.data = [{
           description: "Improving realistic worst-case performance of NVCiM DNN accelerators through training with right-censored gaussian noise",
           section: "Projects",handler: () => {
               window.location.href = "/projects/RCG/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-swim",
+          title: 'SWIM',
+          description: "SWIM - Selective Write-Verify for Computing-in-Memory Neural Accelerators",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SWIM/";
             },},{id: "projects-worst-case-performances",
