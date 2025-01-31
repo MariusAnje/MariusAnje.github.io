@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of our cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -101,12 +101,7 @@ ninja.data = [{
           section: "News",},{id: "news-zheyu-yan-nominated-for-best-paper-award-in-iccad-2024",
           title: 'Zheyu Yan Nominated for Best Paper Award in ICCAD 2024.',
           description: "",
-          section: "News",},{id: "projects-worst-case-performances",
-          title: 'Worst-Case Performances',
-          description: "Compute-in-Memory Based Neural Network Accelerators for Safety-Critical Systems - Worst-Case Scenarios and Protections",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/CIM_Fair-copy-3/";
-            },},{id: "projects-hardware-fairness",
+          section: "News",},{id: "projects-hardware-fairness",
           title: 'Hardware Fairness',
           description: "Hardware design and the fairness of a neural network",
           section: "Projects",handler: () => {
@@ -121,6 +116,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SWIM/";
+            },},{id: "projects-worst-case-performances",
+          title: 'Worst-Case Performances',
+          description: "Compute-in-Memory Based Neural Network Accelerators for Safety-Critical Systems - Worst-Case Scenarios and Protections",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/worst/";
             },},{
         id: 'social-email',
         title: 'email',
