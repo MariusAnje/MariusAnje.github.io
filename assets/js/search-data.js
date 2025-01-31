@@ -24,35 +24,35 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "dropdown-teaching",
-              title: "teaching",
+              title: "Teaching",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "";
               },
             },{id: "dropdown-projects",
-              title: "projects",
+              title: "Projects",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "";
               },
             },{id: "dropdown-blog",
-              title: "blog",
+              title: "Blog",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/blog/";
               },
             },{id: "dropdown-repositories",
-              title: "repositories",
+              title: "Repositories",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "";
               },
             },{id: "dropdown-people",
-              title: "people",
+              title: "People",
               description: "",
               section: "Dropdown",
               handler: () => {
