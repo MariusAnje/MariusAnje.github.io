@@ -11,10 +11,10 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: z-yan.jpg
-    content: about.md
+    content: about_z-yan.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>ZJU-Hangzhou Global Scientific and Technological Innovation Center</p>
+      <p>ZJU-Hangzhou Global Sci & Tech Innovation Center</p>
       <p>Water Expo Campus</p>
       <p>Building A03, Room 510</p>
       <p>2118 Pinglan Road</p>
