@@ -4,7 +4,7 @@
     "label": "Researcher",
     "image": "",
     "email": "zyan2 AT zju.edu.cn",
-    "url": "sites.nd.edu/zheyu-yan/",
+    "url": "https://person.zju.edu.cn/person/zyan2",
     "summary": "A researcher in edge devices and EDA.",
     "location": {
       "address": " ",
@@ -25,7 +25,7 @@
     {
       "name": "College of Computer Science and Engineering, University of Notre Dame, USA",
       "position": "Research Fellow",
-      "url": "sites.nd.edu/zheyu-yan/",
+      "url": "https://sites.nd.edu/zheyu-yan/",
       "startDate": "2024-02-16",
       "endDate": "2024-12-15",
       "summary": "Conducting research related to compute-in-memory and deep neural network accelerators.",
@@ -45,8 +45,8 @@
       "institution": "University of Notre Dame, Notre Dame, USA",
       "location": "Notre Dame, USA",
       "url": "https://www.nd.edu/",
-      "area": "Deep Neural Network Accelerators - Computer Engineering ",
-      "studyType": "PhD",
+      "area": "Computer Engineering: Deep Neural Network Accelerators ",
+      "studyType": "Doctor of Philosophy",
       "startDate": "2019-08-15",
       "endDate": "2024-01-14",
       "score": "4",
@@ -57,7 +57,7 @@
       "location": "Hangzhou, China",
       "url": "https://www.zju.edu.cn/",
       "area": "Electronics Engineering",
-      "studyType": "BS",
+      "studyType": "Bachelor of Science",
       "startDate": "2015-08-15",
       "endDate": "2019-06-14",
       "score": "3.93",
@@ -98,17 +98,46 @@
       "icon": ""
     }
   ],
-  "interests": [
+  "services": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Conference Program Committee",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Design, Automation and Test in Europe Conference and Exhibition (DATE), 2024",
+        "IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2024",
+        "IEEE Computer Society Annual Symposium on VLSI (ISVLSI), 2024 - 2025",
+        "Great Lakes Symposium on VLSI (GLSVLSI), 2024"
+      ]
+    },
+    {
+      "name": "Journal Reviewer",
+      "keywords": [
+        "Nature Reviews Electrical Engineering",
+        "IEEE Transactions on Computers (TC)",
+        "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+        "IEEE Transactions on Emerging Topics in Computing (TETC)",
+        "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)",
+        "IEEE Transactions on Very Large Scale Integration Systems (TVLSI)",
+        "IEEE Transactions on Circuits and Systems for Artificial Intelligence (TCAS-AI)",
+        "IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I)",
+        "IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II)",
+        "ACM Transactions on Embedded Computing Systems (TECS)",
+        "ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+        "ACM Transactions on Architecture and Code Optimization (TACO)"
+      ]
+    },
+    {
+      "name": "Session Chair",
+      "keywords": [
+        "30th Asia and South Pacific Design Automation Conference (ASP-DAC) 2025"
+      ]
+    },
+    {
+      "name": "Invited Talks",
+      "keywords": [
+        "Kyoto University, Kyoto, Japan (host: Prof. Hashimoto), 2024",
+        "AI Chip Center for Emerging Smart Systems, HongKong, China (host: Dr. Luhong Liang), 2023",
+        "Zhejiang University, Hangzhou, China (host: Prof. Cheng Zhuo), 2023",
+        "Technical University of Munich, Munich, Germany (host: Prof. Ulf Schlichtmann), 2022"
       ]
     }
   ]
