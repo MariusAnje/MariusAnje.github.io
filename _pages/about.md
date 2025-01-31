@@ -9,8 +9,7 @@ profile:
   image: z-yan.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>ZJU-Hangzhou Global Sci & Tech Innovation Center</p>
-    <p>Water Expo Campus</p>
+    <p>ZJU-HZ Global Sci & Tech Innov Center, Water Expo Camp</p>
     <p>Building A03, Room 510</p>
     <p>2118 Pinglan Road</p>
     <p>Hangzhou, Zhejiang, China</p>
