@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Please check for  Google Scholar .",
+          description: "Please check for Google Scholar.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -69,12 +69,10 @@ ninja.data = [{
           window.location.href = "/blog/2024/FIT-26-post/";
         
       },
-    },{id: "news-the-transistor-is-invented",
-          title: 'The transistor is invented',
+    },{id: "news-zheyu-yan-received-the-best-paper-award-nomination-in-iccad-2024",
+          title: 'Zheyu Yan received the Best Paper Award Nomination in ICCAD 2024.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-zheyu-yan-won-the-best-paper-award-in-iccad-2023",
+          section: "News",},{id: "news-zheyu-yan-won-the-best-paper-award-in-iccad-2023",
           title: 'Zheyu Yan won the Best Paper Award in ICCAD 2023.',
           description: "",
           section: "News",},{id: "projects-hardware-fairness",
