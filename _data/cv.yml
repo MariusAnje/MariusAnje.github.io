@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 18th January 1997
     - name: Languages
-      value: Chinese, English
+      value: Chinese, English, Wu, Shaanxi
 
 - title: Education
   type: time_table
@@ -35,6 +35,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - CAAI Wenjun Wu Young AI Researcher Award
     - year: 2023
       items:
         - ICCAD William J. McCalla Best Paper Award
