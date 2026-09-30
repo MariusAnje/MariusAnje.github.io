@@ -68,6 +68,11 @@
   ],
   "awards": [
     {
+      "title": "Wenjun Wu Young AI Researcher Award",
+      "date": "2026",
+      "awarder": "Chinese Association for Artifical Intelligence"
+    },
+    {
       "title": "William J. McCalla Best Paper Award",
       "date": "2023",
       "awarder": "IEEE/ACM International Conference on Computer-Aided Design"
@@ -97,6 +102,16 @@
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Wu",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Shaanxi",
+      "fluency": "Learner",
       "icon": ""
     }
   ],
