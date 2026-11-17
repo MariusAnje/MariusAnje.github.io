@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Yuanjie Zhang (PhD student) and Yanzhen Zhou got their papers accepted by DATE.
+Yuanjie Zhang (PhD student) and Yanzhen Zhou (PhD student) got their papers accepted by DATE.
