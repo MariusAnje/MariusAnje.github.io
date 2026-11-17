@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Yuanjie (PhD student) got her papers accepted by TCAD and ASP-DAC.
+Yuanjie Zhang (PhD student) got her papers accepted by TCAD and ASP-DAC.
