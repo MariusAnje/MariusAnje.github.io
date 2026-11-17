@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Qicheng (Master student) got his papers accepted by ACMMM and ECCV.
+Qicheng Zhao (Master student) got his papers accepted by ACMMM and ECCV.
