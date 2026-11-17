@@ -19,4 +19,6 @@ profiles:
       <p>Building A03, Room 510</p>
       <p>2118 Pinglan Road</p>
       <p>Hangzhou, Zhejiang, China</p>
+  - align: right
+    content: about_students.md
 ---
