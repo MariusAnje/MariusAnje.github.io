@@ -1,2 +1,6 @@
 linkedin.com
 reddit.com
+
+# These exact URLs return HTTP 403 to the GitHub Actions link checker.
+^https://doi\.org/10\.1145/3489517\.3530459$
+^https://scholar\.google\.com/citations\?user=Wd8mEEAAAAAJ$
