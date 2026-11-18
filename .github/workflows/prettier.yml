@@ -14,11 +14,15 @@ jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      artifact-url: ${{ steps.artifact-upload.outputs.artifact-url }}
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup Node.js ⚙️
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
       - name: Install Prettier 💾
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
       - name: Prettier Check 🔎
@@ -35,14 +39,23 @@ jobs:
       - name: Upload html diff ⬆️
         id: artifact-upload
         if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: HTML Diff
           path: diff.html
           retention-days: 7
+  dispatch-comment:
+    needs: check
+    if: >-
+      ${{ failure() && github.event_name == 'pull_request' &&
+          github.event.pull_request.head.repo.full_name == github.repository &&
+          needs.check.outputs.artifact-url != '' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
       - name: Dispatch information to repository 🗣️
-        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'pull_request' }}
-        uses: peter-evans/repository-dispatch@v2
+        uses: peter-evans/repository-dispatch@v4
         with:
           event-type: prettier-failed-on-pr
-          client-payload: '{"pr_number": "${{ github.event.number }}", "artifact_url": "${{ steps.artifact-upload.outputs.artifact-url }}", "run_id": "${{ github.run_id }}"}'
+          client-payload: '{"pr_number": "${{ github.event.number }}", "artifact_url": "${{ needs.check.outputs.artifact-url }}", "run_id": "${{ github.run_id }}"}'
