@@ -29,8 +29,7 @@
       "startDate": "2024-02-16",
       "endDate": "2024-12-15",
       "summary": "Conducting research related to compute-in-memory and deep neural network accelerators.",
-      "highlights": [ "Emerging Device-based compute-in-memory systems", 
-                      "Deep neural networks inference accelerators for edge"]
+      "highlights": ["Emerging Device-based compute-in-memory systems", "Deep neural networks inference accelerators for edge"]
     },
     {
       "name": "College of Integrated Circuits, Zhejiang University, China",
@@ -38,8 +37,7 @@
       "url": "https://person.zju.edu.cn/person/zyan2",
       "startDate": "2025-01-02",
       "summary": "Conducting research related to edge devices and electronic design automation.",
-      "highlights": [ "Edge deployment of AI systems", 
-                      "AI-assisted EDA"]
+      "highlights": ["Edge deployment of AI systems", "AI-assisted EDA"]
     }
   ],
   "education": [
@@ -144,9 +142,7 @@
     },
     {
       "position": "Session Chair",
-      "highlights": [
-        "30th Asia and South Pacific Design Automation Conference (ASP-DAC) 2025"
-      ]
+      "highlights": ["30th Asia and South Pacific Design Automation Conference (ASP-DAC) 2025"]
     },
     {
       "position": "Invited Talks",
